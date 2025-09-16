@@ -47,7 +47,7 @@ public class Funcionario extends Pessoa {
         return salario * 12;
     }
 
-    public void receberAumento(doubl percentual) {
+    public void receberAumento(double percentual) {
         this.salario += salario * (percentual / 100);
         System.out.println("Novo salário após aumento: " + salario);
     }
