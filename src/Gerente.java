@@ -11,7 +11,7 @@ public class Gerente extends Funcionario {
     }
 
     public int getEquipe() {
-        return equipe;
+        return equip;
     }
 
     public double getBonus() {
